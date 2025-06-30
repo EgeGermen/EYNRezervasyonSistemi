@@ -11,6 +11,8 @@ import { AnaSayfaComponent } from './ana-sayfa/ana-sayfa.component';
 import { KullaniciPanelComponent } from './kullanici-panel/kullanici-panel.component';
 import { DestekIletisimComponent } from './destek-iletisim/destek-iletisim.component';
 import { KullaniciGirisComponent } from './kullanici-giris/kullanici-giris.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { KullaniciGirisComponent } from './kullanici-giris/kullanici-giris.compo
     AnaSayfaComponent,
     KullaniciPanelComponent,
     DestekIletisimComponent,
-    KullaniciGirisComponent
+    KullaniciGirisComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
