@@ -1,9 +1,10 @@
 <nav class="navbar">
-  <div class="navbar__logo">EYN Hotel</div>
+  <div class="navbar__logo" routerLink="/">EYN Hotel</div>
   <ul class="navbar__links">
-    <li><a href="#">Anasayfa</a></li>
-    <li><a href="#">Rezervasyonlarım</a></li>
-    <li><a href="#">Destek</a></li>
-    <li><button class="navbar__login">Giriş Yap</button></li>
+    <li><a href="/">Anasayfa</a></li>
+    <li><a href="/panel">Rezervasyonlarım</a></li>
+    <li><a href="/destek">Destek</a></li>
+    <li><a routerLink="/ayarlar">Ayarlar</a></li>
+    <li><button class="navbar__login" routerLink="/giris">Giriş Yap</button></li>
   </ul>
 </nav>

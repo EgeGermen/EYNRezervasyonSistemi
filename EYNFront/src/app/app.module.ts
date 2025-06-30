@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,8 @@ import { DestekIletisimComponent } from './destek-iletisim/destek-iletisim.compo
 import { KullaniciGirisComponent } from './kullanici-giris/kullanici-giris.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { AyarlarComponent } from './ayarlar/ayarlar.component';
+import { UserService } from './user.service';
 
 @NgModule({
   declarations: [
@@ -26,13 +29,17 @@ import { FooterComponent } from './footer/footer.component';
     DestekIletisimComponent,
     KullaniciGirisComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AyarlarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

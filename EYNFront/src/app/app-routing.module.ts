@@ -8,6 +8,7 @@ import { AnaSayfaComponent } from './ana-sayfa/ana-sayfa.component';
 import { KullaniciGirisComponent } from './kullanici-giris/kullanici-giris.component';
 import { KullaniciPanelComponent } from './kullanici-panel/kullanici-panel.component';
 import { DestekIletisimComponent } from './destek-iletisim/destek-iletisim.component';
+import { AyarlarComponent } from './ayarlar/ayarlar.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'giris', component: KullaniciGirisComponent },
   { path: 'panel', component: KullaniciPanelComponent },
   { path: 'destek', component: DestekIletisimComponent },
+  { path: 'ayarlar', component: AyarlarComponent },
 ];
 
 @NgModule({

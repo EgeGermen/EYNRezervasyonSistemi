@@ -1,10 +1,22 @@
-
 // Hero
 .hero {
-  background: linear-gradient(120deg, #e0e7ff 0%, #fff 100%);
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80') center top/cover no-repeat;
+  position: relative;
+  min-height: 480px;
   padding: 4rem 0 2rem 0;
   text-align: center;
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, #e0e7ff 0%, #fff 100%);
+    opacity: 0.32;
+    pointer-events: none;
+    z-index: 1;
+  }
   &__content {
+    position: relative;
+    z-index: 2;
     max-width: 600px;
     margin: 0 auto;
     h1 {
@@ -54,6 +66,21 @@
       box-shadow: 0 4px 16px rgba(0,119,255,0.12);
     }
   }
+  &__date-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0.5rem;
+    label {
+      font-size: 0.95rem;
+      color: #2d3a4b;
+      margin-bottom: 0.25rem;
+      margin-left: 0.2rem;
+    }
+    input {
+      width: 170px;
+    }
+  }
 }
 
 // Campaign Banner
@@ -71,7 +98,7 @@
     align-items: center;
     gap: 2rem;
     box-shadow: 0 4px 16px rgba(56,189,248,0.12);
-    animation: pop-in 0.7s cubic-bezier(.68,-0.55,.27,1.55);
+    animation: pop-in 0.7s cubic-bezier(.68,-0.55,.27,1.55), pulse-banner 3s cubic-bezier(0.4,0,0.2,1) infinite;
   }
   &__button {
     background: #fff;
@@ -89,9 +116,16 @@
   }
 }
 
-@keyframes pop-in {
-  0% { transform: scale(0.8); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
+// @keyframes pop-in {
+//   0% { transform: scale(0.8); opacity: 0; }
+//   100% { transform: scale(1); opacity: 1; }
+// }
+
+@keyframes pulse-banner {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+ 
 }
 
 // Hotels
@@ -158,6 +192,73 @@
       padding: 0.2rem 0.7rem;
       font-size: 0.95rem;
       font-weight: 500;
+    }
+  }
+}
+
+.discounted-hotels {
+  max-width: 1200px;
+  margin: 2rem auto 0 auto;
+  padding: 0 1rem;
+  h2 {
+    color: #2d3a4b;
+    margin-bottom: 1.2rem;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  &__slider {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    scrollbar-width: thin;
+    scrollbar-color: #0077ff #e0e7ff;
+  }
+}
+.discounted-hotel-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  min-width: 260px;
+  max-width: 260px;
+  flex: 0 0 auto;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  &:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(0,119,255,0.12);
+  }
+  img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+  &__info {
+    padding: 1rem;
+    h3 {
+      margin: 0 0 0.3rem 0;
+      color: #2d3a4b;
+      font-size: 1.1rem;
+    }
+    p {
+      color: #64748b;
+      margin-bottom: 0.5rem;
+      font-size: 0.98rem;
+    }
+    .discounted-hotel-card__price {
+      color: #0077ff;
+      font-weight: 600;
+      font-size: 1.1rem;
+      .old {
+        color: #b0b0b0;
+        text-decoration: line-through;
+        font-size: 0.98rem;
+        margin-left: 0.5rem;
+      }
     }
   }
 }

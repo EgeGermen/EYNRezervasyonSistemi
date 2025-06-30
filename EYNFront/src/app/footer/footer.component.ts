@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent {
+  showAbout: boolean = false;
+  showPrivacy: boolean = false;
 
+  toggleAbout() {
+    this.showAbout = !this.showAbout;
+  }
+
+  togglePrivacy() {
+    this.showPrivacy = !this.showPrivacy;
+  }
 }

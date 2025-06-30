@@ -1,45 +1,59 @@
-<div class="giris-kapsayici">
-  <div class="giris-tabs">
-    <button class="tab aktif" id="tab-kullanici-giris">Kullanıcı Girişi</button>
-    <button class="tab" id="tab-kullanici-kayit">Kayıt Ol</button>
-    <button class="tab" id="tab-admin-giris">Admin Girişi</button>
+<div class="giris-container">
+  <div class="tab-menu">
+    <button [class.active]="aktifForm === 'giris'" (click)="formSec('giris')">Giriş Yap</button>
+    <button [class.active]="aktifForm === 'kayit'" (click)="formSec('kayit')">Kayıt Ol</button>
+    <button [class.active]="aktifForm === 'admin'" (click)="formSec('admin')">Admin Girişi</button>
   </div>
-  <!-- Kullanıcı Girişi Formu -->
-  <form class="giris-form" id="form-kullanici-giris">
-    <input type="email" placeholder="E-posta" required />
-    <input type="password" placeholder="Şifre" required />
-    <button class="giris-btn" type="submit">Giriş Yap</button>
-    <a href="#" class="sifremi-unuttum">Şifremi Unuttum?</a>
-  </form>
-  <!-- Kullanıcı Kayıt Formu -->
-  <form class="kayit-form" id="form-kullanici-kayit" style="display:none">
-    <input type="text" placeholder="Ad Soyad" required />
-    <input type="email" placeholder="E-posta" required />
-    <input type="password" placeholder="Şifre" required />
-    <button class="giris-btn" type="submit">Kayıt Ol</button>
-  </form>
-  <!-- Admin Girişi Formu -->
-  <form class="admin-form" id="form-admin-giris" style="display:none">
-    <input type="email" placeholder="Admin E-posta" required />
-    <input type="password" placeholder="Şifre" required />
-    <button class="giris-btn admin-btn" type="submit">Admin Girişi</button>
-  </form>
+
+  <div class="form-wrapper">
+    <!-- Kullanıcı Girişi Formu -->
+    <form *ngIf="aktifForm === 'giris'" class="giris-form animate" #girisForm="ngForm">
+      <h2>Kullanıcı Girişi</h2>
+      <input type="email" name="girisEmail" [(ngModel)]="girisEmail" placeholder="E-posta" required #girisEmailInput="ngModel">
+      <div *ngIf="girisEmailInput.invalid && (girisEmailInput.dirty || girisEmailInput.touched)" class="error">
+        E-posta boş bırakılamaz.
+      </div>
+      <input type="password" name="girisSifre" [(ngModel)]="girisSifre" placeholder="Şifre" required #girisSifreInput="ngModel">
+      <div *ngIf="girisSifreInput.invalid && (girisSifreInput.dirty || girisSifreInput.touched)" class="error">
+        Şifre boş bırakılamaz.
+      </div>
+      <button type="submit" [disabled]="girisForm.invalid">Giriş Yap</button>
+    </form>
+
+    <!-- Kayıt Ol Formu -->
+    <form *ngIf="aktifForm === 'kayit'" class="kayit-form animate" #kayitForm="ngForm">
+      <h2>Kayıt Ol</h2>
+      <input type="text" name="kayitAd" [(ngModel)]="kayitAd" placeholder="Ad Soyad" required #kayitAdInput="ngModel">
+      <div *ngIf="kayitAdInput.invalid && (kayitAdInput.dirty || kayitAdInput.touched)" class="error">
+        Ad Soyad boş bırakılamaz.
+      </div>
+      <input type="email" name="kayitEmail" [(ngModel)]="kayitEmail" placeholder="E-posta" required #kayitEmailInput="ngModel">
+      <div *ngIf="kayitEmailInput.invalid && (kayitEmailInput.dirty || kayitEmailInput.touched)" class="error">
+        E-posta boş bırakılamaz.
+      </div>
+      <input type="password" name="kayitSifre" [(ngModel)]="kayitSifre" placeholder="Şifre" required #kayitSifreInput="ngModel">
+      <div *ngIf="kayitSifreInput.invalid && (kayitSifreInput.dirty || kayitSifreInput.touched)" class="error">
+        Şifre boş bırakılamaz.
+      </div>
+      <input type="password" name="kayitSifreTekrar" [(ngModel)]="kayitSifreTekrar" placeholder="Şifre Tekrar" required #kayitSifreTekrarInput="ngModel">
+      <div *ngIf="kayitSifreTekrarInput.invalid && (kayitSifreTekrarInput.dirty || kayitSifreTekrarInput.touched)" class="error">
+        Şifre tekrar boş bırakılamaz.
+      </div>
+      <button type="submit" [disabled]="kayitForm.invalid">Kayıt Ol</button>
+    </form>
+
+    <!-- Admin Girişi Formu -->
+    <form *ngIf="aktifForm === 'admin'" class="admin-form animate" #adminForm="ngForm">
+      <h2>Admin Girişi</h2>
+      <input type="text" name="adminKullanici" [(ngModel)]="adminKullanici" placeholder="Kullanıcı Adı" required #adminKullaniciInput="ngModel">
+      <div *ngIf="adminKullaniciInput.invalid && (adminKullaniciInput.dirty || adminKullaniciInput.touched)" class="error">
+        Kullanıcı adı boş bırakılamaz.
+      </div>
+      <input type="password" name="adminSifre" [(ngModel)]="adminSifre" placeholder="Şifre" required #adminSifreInput="ngModel">
+      <div *ngIf="adminSifreInput.invalid && (adminSifreInput.dirty || adminSifreInput.touched)" class="error">
+        Şifre boş bırakılamaz.
+      </div>
+      <button type="submit" [disabled]="adminForm.invalid">Admin Girişi</button>
+    </form>
+  </div>
 </div>
-<script>
-// Basit tab geçişi için vanilla JS (Angular'da normalde component ts dosyasında yapılır)
-document.addEventListener('DOMContentLoaded', function() {
-  const tabs = document.querySelectorAll('.giris-tabs .tab');
-  const forms = [
-    document.getElementById('form-kullanici-giris'),
-    document.getElementById('form-kullanici-kayit'),
-    document.getElementById('form-admin-giris')
-  ];
-  tabs.forEach((tab, i) => {
-    tab.addEventListener('click', () => {
-      tabs.forEach(t => t.classList.remove('aktif'));
-      tab.classList.add('aktif');
-      forms.forEach((f, j) => f.style.display = (i === j ? 'flex' : 'none'));
-    });
-  });
-});
-</script>

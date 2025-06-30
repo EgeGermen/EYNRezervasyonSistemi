@@ -1,14 +1,24 @@
-
-
 <!-- Hero Search -->
 <section class="hero">
   <div class="hero__content">
     <h1>Hayalinizdeki Oteli Bulun</h1>
     <p>En iyi fiyatlarla, en iyi oteller burada!</p>
     <form class="search-form">
-      <input type="text" placeholder="Şehir veya Otel Adı" class="search-form__input" />
-      <input type="date" class="search-form__input" />
-      <input type="date" class="search-form__input" />
+      <select class="search-form__input" aria-label="Şehir Seçiniz">
+        <option disabled selected>Şehir Seçiniz</option>
+        <option>İstanbul</option>
+        <option>Antalya</option>
+        <option>Aydın</option>
+      </select>
+      <input type="text" placeholder="Otel Adı" class="search-form__input" aria-label="Otel Adı" />
+      <div class="search-form__date-group">
+        <label for="giris-tarihi">Giriş Tarihi</label>
+        <input id="giris-tarihi" type="date" class="search-form__input" />
+      </div>
+      <div class="search-form__date-group">
+        <label for="cikis-tarihi">Çıkış Tarihi</label>
+        <input id="cikis-tarihi" type="date" class="search-form__input" />
+      </div>
       <select class="search-form__input">
         <option>Kişi Sayısı</option>
         <option>1</option>
@@ -24,7 +34,46 @@
 <section class="campaign">
   <div class="campaign__banner">
     <span>Yaza Özel %30 İndirim!</span>
-    <button class="campaign__button">Fırsatları Gör</button>
+    <button class="campaign__button" (click)="scrollToDiscountedHotels()">Fırsatları Gör</button>
+  </div>
+</section>
+
+<!-- Discounted Hotels Slider -->
+<section class="discounted-hotels" id="discounted-hotels">
+  <h2>İndirimli Oteller</h2>
+  <div class="discounted-hotels__slider">
+    <div class="discounted-hotel-card" routerLink="/otel-detay">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Otel 1" />
+      <div class="discounted-hotel-card__info">
+        <h3>Grand Palace</h3>
+        <p>İstanbul</p>
+        <span class="discounted-hotel-card__price">₺900 <span class="old">₺1.200</span></span>
+      </div>
+    </div>
+    <div class="discounted-hotel-card" routerLink="/otel-detay">
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Otel 2" />
+      <div class="discounted-hotel-card__info">
+        <h3>Sea View Resort</h3>
+        <p>Antalya</p>
+        <span class="discounted-hotel-card__price">₺700 <span class="old">₺950</span></span>
+      </div>
+    </div>
+    <div class="discounted-hotel-card" routerLink="/otel-detay">
+      <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="Otel 3" />
+      <div class="discounted-hotel-card__info">
+        <h3>Mountain Lodge</h3>
+        <p>Bolu</p>
+        <span class="discounted-hotel-card__price">₺600 <span class="old">₺800</span></span>
+      </div>
+    </div>
+    <div class="discounted-hotel-card" routerLink="/otel-detay">
+      <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=400&q=80" alt="Otel 4" />
+      <div class="discounted-hotel-card__info">
+        <h3>Sunshine Hotel</h3>
+        <p>Aydın</p>
+        <span class="discounted-hotel-card__price">₺850 <span class="old">₺1.100</span></span>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -32,7 +81,7 @@
 <section class="hotels">
   <h2>Popüler Oteller</h2>
   <div class="hotels__list">
-    <div class="hotel-card">
+    <div class="hotel-card"routerLink="/otel-detay">
       <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Otel 1" />
       <div class="hotel-card__info">
         <h3>Grand Palace</h3>
@@ -41,7 +90,7 @@
         <span class="hotel-card__rating">★ 9.2</span>
       </div>
     </div>
-    <div class="hotel-card">
+    <div class="hotel-card" routerLink="/otel-detay">
       <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Otel 2" />
       <div class="hotel-card__info">
         <h3>Sea View Resort</h3>
@@ -50,7 +99,7 @@
         <span class="hotel-card__rating">★ 8.7</span>
       </div>
     </div>
-    <div class="hotel-card">
+    <div class="hotel-card" routerLink="/otel-detay">
       <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="Otel 3" />
       <div class="hotel-card__info">
         <h3>Mountain Lodge</h3>
