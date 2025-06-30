@@ -1,0 +1,45 @@
+<div class="giris-kapsayici">
+  <div class="giris-tabs">
+    <button class="tab aktif" id="tab-kullanici-giris">Kullanıcı Girişi</button>
+    <button class="tab" id="tab-kullanici-kayit">Kayıt Ol</button>
+    <button class="tab" id="tab-admin-giris">Admin Girişi</button>
+  </div>
+  <!-- Kullanıcı Girişi Formu -->
+  <form class="giris-form" id="form-kullanici-giris">
+    <input type="email" placeholder="E-posta" required />
+    <input type="password" placeholder="Şifre" required />
+    <button class="giris-btn" type="submit">Giriş Yap</button>
+    <a href="#" class="sifremi-unuttum">Şifremi Unuttum?</a>
+  </form>
+  <!-- Kullanıcı Kayıt Formu -->
+  <form class="kayit-form" id="form-kullanici-kayit" style="display:none">
+    <input type="text" placeholder="Ad Soyad" required />
+    <input type="email" placeholder="E-posta" required />
+    <input type="password" placeholder="Şifre" required />
+    <button class="giris-btn" type="submit">Kayıt Ol</button>
+  </form>
+  <!-- Admin Girişi Formu -->
+  <form class="admin-form" id="form-admin-giris" style="display:none">
+    <input type="email" placeholder="Admin E-posta" required />
+    <input type="password" placeholder="Şifre" required />
+    <button class="giris-btn admin-btn" type="submit">Admin Girişi</button>
+  </form>
+</div>
+<script>
+// Basit tab geçişi için vanilla JS (Angular'da normalde component ts dosyasında yapılır)
+document.addEventListener('DOMContentLoaded', function() {
+  const tabs = document.querySelectorAll('.giris-tabs .tab');
+  const forms = [
+    document.getElementById('form-kullanici-giris'),
+    document.getElementById('form-kullanici-kayit'),
+    document.getElementById('form-admin-giris')
+  ];
+  tabs.forEach((tab, i) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('aktif'));
+      tab.classList.add('aktif');
+      forms.forEach((f, j) => f.style.display = (i === j ? 'flex' : 'none'));
+    });
+  });
+});
+</script>

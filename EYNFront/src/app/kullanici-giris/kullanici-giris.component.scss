@@ -1,0 +1,87 @@
+.giris-kapsayici {
+  max-width: 350px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.giris-tabs {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1rem;
+  .tab {
+    background: #e0e7ff;
+    color: #2d3a4b;
+    border: none;
+    border-radius: 12px 12px 0 0;
+    padding: 0.7rem 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    &.aktif, &:hover {
+      background: #0077ff;
+      color: #fff;
+    }
+  }
+}
+.giris-form, .kayit-form, .admin-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  input {
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    font-size: 1rem;
+    transition: border 0.2s, box-shadow 0.2s;
+    &:focus {
+      border: 1.5px solid #0077ff;
+      outline: none;
+      box-shadow: 0 2px 8px rgba(0,119,255,0.08);
+    }
+  }
+}
+.giris-btn {
+  background: linear-gradient(90deg, #0077ff 0%, #38bdf8 100%);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.7rem 2.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(56,189,248,0.10);
+  transition: background 0.2s, transform 0.2s;
+  &:hover {
+    background: linear-gradient(90deg, #005fcc 0%, #0077ff 100%);
+    transform: scale(1.05);
+  }
+}
+.admin-btn {
+  background: linear-gradient(90deg, #ef4444 0%, #fbbf24 100%);
+  color: #fff;
+  font-weight: 700;
+  &:hover {
+    background: linear-gradient(90deg, #b91c1c 0%, #f59e42 100%);
+  }
+}
+.sifremi-unuttum {
+  color: #0077ff;
+  text-align: right;
+  font-size: 0.95rem;
+  text-decoration: none;
+  margin-top: -0.5rem;
+  transition: color 0.2s;
+  &:hover {
+    color: #005fcc;
+    text-decoration: underline;
+  }
+}
