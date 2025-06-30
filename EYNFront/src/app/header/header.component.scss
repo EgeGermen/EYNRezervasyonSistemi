@@ -1,0 +1,45 @@
+// Navbar
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  &__logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2d3a4b;
+    letter-spacing: 2px;
+  }
+  &__links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    li a, .navbar__login {
+      text-decoration: none;
+      color: #2d3a4b;
+      font-weight: 500;
+      transition: color 0.2s;
+      &:hover {
+        color: #0077ff;
+      }
+    }
+    .navbar__login {
+      background: #0077ff;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      padding: 0.5rem 1.5rem;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+      &:hover {
+        background: #005fcc;
+        transform: scale(1.05);
+      }
+    }
+  }
+}
