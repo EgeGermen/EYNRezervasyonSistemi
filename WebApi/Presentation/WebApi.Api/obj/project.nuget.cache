@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m3fneIY5XSU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Presentation\\WebApi.Api\\WebApi.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ege Germen\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.6\\microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+    "C:\\Users\\Ege Germen\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

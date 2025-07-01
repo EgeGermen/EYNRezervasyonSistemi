@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\ege germen\\documents\\aaprojects\\eynrezervasyonsistemi\\webapi\\presentation\\webapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\ege germen\\documents\\aaprojects\\eynrezervasyonsistemi\\webapi\\infrastructure\\webapi.persistence\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7503C923-8D16-42DE-A2BB-86A60461A331}|Infrastructure\\WebApi.Infrastructure\\WebApi.Infrastructure.csproj|c:\\users\\ege germen\\documents\\aaprojects\\eynrezervasyonsistemi\\webapi\\infrastructure\\webapi.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7503C923-8D16-42DE-A2BB-86A60461A331}|Infrastructure\\WebApi.Infrastructure\\WebApi.Infrastructure.csproj|solutionrelative:infrastructure\\webapi.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1629E93-4CCA-4C71-A776-4AA7065BC7FF}|Core\\WebApi.Domain\\WebApi.Domain.csproj|c:\\users\\ege germen\\documents\\aaprojects\\eynrezervasyonsistemi\\webapi\\core\\webapi.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1629E93-4CCA-4C71-A776-4AA7065BC7FF}|Core\\WebApi.Domain\\WebApi.Domain.csproj|solutionrelative:core\\webapi.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A47E58-BE03-438F-8C2B-176D09733C2D}|Core\\WebApi.Application\\WebApi.Application.csproj|c:\\users\\ege germen\\documents\\aaprojects\\eynrezervasyonsistemi\\webapi\\core\\webapi.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92A47E58-BE03-438F-8C2B-176D09733C2D}|Core\\WebApi.Application\\WebApi.Application.csproj|solutionrelative:core\\webapi.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Presentation\\WebApi.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Presentation\\WebApi.Api\\Program.cs",
+              "RelativeToolTip": "Presentation\\WebApi.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T08:05:30.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Infrastructure\\WebApi.Persistence\\Class1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Class1.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Infrastructure\\WebApi.Persistence\\Class1.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:59:00.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Infrastructure\\WebApi.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Infrastructure\\WebApi.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:58:05.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Core\\WebApi.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Core\\WebApi.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Core\\WebApi.Domain\\Class1.cs",
+              "RelativeToolTip": "Core\\WebApi.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:55:32.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Core\\WebApi.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Core\\WebApi.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Core\\WebApi.Application\\Class1.cs",
+              "RelativeToolTip": "Core\\WebApi.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:55:05.383Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
