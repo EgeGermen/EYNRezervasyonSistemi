@@ -1,101 +1,262 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\ege germen\\documents\\aaprojects\\eynrezervasyonsistemi\\webapi\\presentation\\webapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Migrations\\20250704073915_mig_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\WebApi.Persistence\\Migrations\\20250704073915_mig_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\infrastructure\\webapi.persistence\\concretes\\otelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\concretes\\otelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\presentation\\webapi.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\infrastructure\\webapi.persistence\\concretes\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\concretes\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\infrastructure\\webapi.persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\infrastructure\\webapi.persistence\\concretes\\odatipiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\concretes\\odatipiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\infrastructure\\webapi.persistence\\concretes\\odemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\concretes\\odemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\infrastructure\\webapi.persistence\\concretes\\rezervasyonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\concretes\\rezervasyonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\presentation\\webapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\infrastructure\\webapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\infrastructure\\webapi.persistence\\configurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\configurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\presentation\\webapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\ege germen\\documents\\aaprojects\\eynrezervasyonsistemi\\webapi\\infrastructure\\webapi.persistence\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\presentation\\webapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7503C923-8D16-42DE-A2BB-86A60461A331}|Infrastructure\\WebApi.Infrastructure\\WebApi.Infrastructure.csproj|c:\\users\\ege germen\\documents\\aaprojects\\eynrezervasyonsistemi\\webapi\\infrastructure\\webapi.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7503C923-8D16-42DE-A2BB-86A60461A331}|Infrastructure\\WebApi.Infrastructure\\WebApi.Infrastructure.csproj|solutionrelative:infrastructure\\webapi.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1629E93-4CCA-4C71-A776-4AA7065BC7FF}|Core\\WebApi.Domain\\WebApi.Domain.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\core\\webapi.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1629E93-4CCA-4C71-A776-4AA7065BC7FF}|Core\\WebApi.Domain\\WebApi.Domain.csproj|solutionrelative:core\\webapi.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1629E93-4CCA-4C71-A776-4AA7065BC7FF}|Core\\WebApi.Domain\\WebApi.Domain.csproj|c:\\users\\ege germen\\documents\\aaprojects\\eynrezervasyonsistemi\\webapi\\core\\webapi.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1629E93-4CCA-4C71-A776-4AA7065BC7FF}|Core\\WebApi.Domain\\WebApi.Domain.csproj|solutionrelative:core\\webapi.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A47E58-BE03-438F-8C2B-176D09733C2D}|Core\\WebApi.Application\\WebApi.Application.csproj|c:\\users\\ege germen\\documents\\aaprojects\\eynrezervasyonsistemi\\webapi\\core\\webapi.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92A47E58-BE03-438F-8C2B-176D09733C2D}|Core\\WebApi.Application\\WebApi.Application.csproj|solutionrelative:core\\webapi.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1629E93-4CCA-4C71-A776-4AA7065BC7FF}|Core\\WebApi.Domain\\WebApi.Domain.csproj|c:\\users\\ege germen\\desktop\\birle\u015Fmi\u015F\\core\\webapi.domain\\entities\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1629E93-4CCA-4C71-A776-4AA7065BC7FF}|Core\\WebApi.Domain\\WebApi.Domain.csproj|solutionrelative:core\\webapi.domain\\entities\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 281,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Presentation\\WebApi.Api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Presentation\\WebApi.Api\\Program.cs",
               "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Presentation\\WebApi.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Presentation\\WebApi.Api\\Program.cs",
               "RelativeToolTip": "Presentation\\WebApi.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T08:05:30.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T10:45:14.428Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Infrastructure\\WebApi.Persistence\\Class1.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Class1.cs",
-              "ToolTip": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Infrastructure\\WebApi.Persistence\\Class1.cs",
-              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "20250704073915_mig_1.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Migrations\\20250704073915_mig_1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Migrations\\20250704073915_mig_1.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Migrations\\20250704073915_mig_1.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Migrations\\20250704073915_mig_1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:59:00.416Z",
+              "WhenOpened": "2025-07-04T07:39:15.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Infrastructure\\WebApi.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Infrastructure\\WebApi.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "Infrastructure\\WebApi.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Presentation\\WebApi.Api\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Presentation\\WebApi.Api\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Presentation\\WebApi.Api\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAIAwwIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:58:05.961Z",
+              "WhenOpened": "2025-07-04T07:27:20.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Core\\WebApi.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Core\\WebApi.Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Core\\WebApi.Domain\\Class1.cs",
-              "RelativeToolTip": "Core\\WebApi.Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Concretes\\AdminService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Concretes\\AdminService.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Concretes\\AdminService.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Concretes\\AdminService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:55:32.265Z",
+              "WhenOpened": "2025-07-04T07:27:17.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Core\\WebApi.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "Core\\WebApi.Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\Ege Germen\\Documents\\AAProjects\\EYNRezervasyonSistemi\\WebApi\\Core\\WebApi.Application\\Class1.cs",
-              "RelativeToolTip": "Core\\WebApi.Application\\Class1.cs",
+              "DocumentIndex": 6,
+              "Title": "OdemeService.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Concretes\\OdemeService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Concretes\\OdemeService.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Concretes\\OdemeService.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Concretes\\OdemeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:55:05.383Z",
+              "WhenOpened": "2025-07-04T07:24:03.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RezervasyonService.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Concretes\\RezervasyonService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Concretes\\RezervasyonService.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Concretes\\RezervasyonService.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Concretes\\RezervasyonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T07:23:57.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Presentation\\WebApi.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Presentation\\WebApi.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Presentation\\WebApi.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAUwJgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T19:47:55.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OtelService.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Concretes\\OtelService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Concretes\\OtelService.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Concretes\\OtelService.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Concretes\\OtelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T19:47:21.675Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OdaTipiService.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Concretes\\OdaTipiService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Concretes\\OdaTipiService.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Concretes\\OdaTipiService.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Concretes\\OdaTipiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T07:24:04.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Contexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Contexts\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Contexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Contexts\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T19:11:08.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T19:14:22.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Configurations.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Configurations.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Configurations.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Infrastructure\\WebApi.Persistence\\Configurations.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Configurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T19:14:21.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Presentation\\WebApi.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Presentation\\WebApi.Api\\appsettings.json",
+              "RelativeToolTip": "Presentation\\WebApi.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-03T19:12:43.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Core\\WebApi.Domain\\Entities\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "Core\\WebApi.Domain\\Entities\\Identity\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Core\\WebApi.Domain\\Entities\\Identity\\AppUser.cs",
+              "RelativeToolTip": "Core\\WebApi.Domain\\Entities\\Identity\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T19:08:18.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Core\\WebApi.Domain\\Entities\\Identity\\AppRole.cs",
+              "RelativeDocumentMoniker": "Core\\WebApi.Domain\\Entities\\Identity\\AppRole.cs",
+              "ToolTip": "C:\\Users\\Ege Germen\\Desktop\\Birle\u015Fmi\u015F\\Core\\WebApi.Domain\\Entities\\Identity\\AppRole.cs",
+              "RelativeToolTip": "Core\\WebApi.Domain\\Entities\\Identity\\AppRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T19:08:15.282Z"
             }
           ]
         }
