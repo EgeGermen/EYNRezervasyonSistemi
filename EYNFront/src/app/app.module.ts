@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OtelDetayComponent } from './otel-detay/otel-detay.component';
@@ -16,7 +16,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AyarlarComponent } from './ayarlar/ayarlar.component';
 import { UserService } from './user.service';
-
+import { KullaniciLoginComponent } from './kullanici-giris/kullanici-login/kullanici-login.component';
+import { KullaniciRegisterComponent} from './kullanici-giris/kullanici-register/kullanici-register.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,13 +32,16 @@ import { UserService } from './user.service';
     KullaniciGirisComponent,
     HeaderComponent,
     FooterComponent,
-    AyarlarComponent
+    AyarlarComponent,
+    KullaniciLoginComponent,
+    KullaniciRegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
     
   ],
   providers: [UserService],

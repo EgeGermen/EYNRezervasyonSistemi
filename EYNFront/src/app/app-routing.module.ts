@@ -9,6 +9,9 @@ import { KullaniciGirisComponent } from './kullanici-giris/kullanici-giris.compo
 import { KullaniciPanelComponent } from './kullanici-panel/kullanici-panel.component';
 import { DestekIletisimComponent } from './destek-iletisim/destek-iletisim.component';
 import { AyarlarComponent } from './ayarlar/ayarlar.component';
+import { KullaniciLoginComponent } from './kullanici-giris/kullanici-login/kullanici-login.component';
+import { KullaniciRegisterComponent } from './kullanici-giris/kullanici-register/kullanici-register.component';
+import { AdminLoginComponent } from './kullanici-giris/admin-login/admin-login.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -17,7 +20,13 @@ const routes: Routes = [
   { path: 'rezervasyon/oda', component: RezervasyonOdaComponent },
   { path: 'rezervasyon/bilgi', component: RezervasyonBilgiComponent },
   { path: 'rezervasyon/onay', component: RezervasyonOnayComponent },
-  { path: 'giris', component: KullaniciGirisComponent },
+  { path: 'kullanici-giris', component: KullaniciGirisComponent,
+    children: [
+      {path: 'login', component: KullaniciLoginComponent},
+      {path: 'register', component: KullaniciRegisterComponent},
+      {path: 'login', component: AdminLoginComponent}
+    ]
+   },
   { path: 'panel', component: KullaniciPanelComponent },
   { path: 'destek', component: DestekIletisimComponent },
   { path: 'ayarlar', component: AyarlarComponent },
